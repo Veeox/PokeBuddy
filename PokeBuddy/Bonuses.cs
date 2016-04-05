@@ -19,9 +19,9 @@ namespace PokeBuddy
             + System.Environment.NewLine +
             ""
             + System.Environment.NewLine +
-            "Thank you for using my addon!"
+            "This is a custom build for Zorua"
             + System.Environment.NewLine +
-            "PokeBuddy is currently in BETA"
+            "Made by special request"
             + System.Environment.NewLine +
             "Please report any bugs!"
             + System.Environment.NewLine +

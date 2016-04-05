@@ -144,7 +144,7 @@ namespace PokeBuddy
             }
             else
             {
-                sprite.Draw(new Vector2(DrawStuff.xpos + 43, DrawStuff.ypos - 60));
+                sprite.Draw(new Vector2(DrawStuff.xpos + 43, DrawStuff.ypos - 70));
             }
         }
 
@@ -157,7 +157,7 @@ namespace PokeBuddy
             //Draw Sprites
             //Get Pet Sprite
             GetPetSprite();
-            sprite.Scale = new Vector2(0.12f, 0.12f);
+            sprite.Scale = new Vector2(0.2f, 0.2f);
             //sprite.Draw(new Vector2(xpos + 20, ypos - 75));
 
         }

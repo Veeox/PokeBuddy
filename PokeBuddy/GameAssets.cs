@@ -27,7 +27,7 @@ namespace PokeBuddy
         public static PetItem expdouble = new PetItem
         {
             Name = "Double Experience",
-            Cost = 500,
+            Cost = 0,
             Owned = false
         };
 
