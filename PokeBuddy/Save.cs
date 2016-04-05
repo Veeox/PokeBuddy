@@ -124,7 +124,7 @@ namespace PokeBuddy
 
         public static void RandomSprite()
         {
-            string[] spriteDb1 = { "g4148", "g4174", "g4205", "g4238", "path4249" };
+            string[] spriteDb1 = { "zorua" };
 
             Random randSprite = new Random();
             string temp = spriteDb1[randSprite.Next(0, spriteDb1.Length)];

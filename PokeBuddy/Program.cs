@@ -26,7 +26,7 @@ namespace PokeBuddy
         {
 
             PokeBuddyLoaded = false;
-            Bonuses.BonusInit();
+            //Bonuses.BonusInit();
             Game.OnTick += Game_OnTick;
 
         }

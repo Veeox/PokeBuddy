@@ -32,7 +32,7 @@ namespace PokeBuddy
         public static string SpBonusXP = null;
         public static int bonusMulti = 0;
         private static Assembly assembly = Assembly.GetExecutingAssembly();
-        private static string resourceName = "PokeBuddy.Resources.BonusValues.txt";
+        private static string resourceName = "PokeBuddy.BonusValues.txt";
         internal static void BonusInit()
         {
             using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName))
