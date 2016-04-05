@@ -66,16 +66,9 @@ namespace PokeBuddy
                     }
                     else
                     {
-                        if (Bonuses.bonusMulti < 2)
-                        {
-                            Notifications.Show(new SimpleNotification("PokeBuddy", GameAssets.expdouble.Name + " Bought!"));
-                            Pet.FoodXP = true;
-                            Pet.XPMulti = 2;
-                        }
-                        else
-                        {
-                            Notifications.Show(new SimpleNotification("PokeBuddy", "Bonus XP in effect, no need for this item!"));
-                        }
+                        Notifications.Show(new SimpleNotification("PokeBuddy", GameAssets.expdouble.Name + " Bought!"));
+                        Pet.FoodXP = true;
+                        Pet.XPMulti = 2;
                     }
 
                     //Deduct Cost
